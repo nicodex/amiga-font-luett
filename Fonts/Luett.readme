@@ -1,9 +1,10 @@
-Short:        Thin bitmap font (8x8 HighRes) with all code points
+Short:        Small HiRes font (8x8, all code points)
 Author:       nico@nicode.net (Nico Bendlin)
 Type:         text/bfont
 Architecture: m68k-amigaos
 Version:      1.0
-Kurz:         Dünne Bitmap-Schrift (8x8 HighRes) mit allen Codepoints
+Distribution: Aminet
+Kurz:         Kleine HiRes-Schrift (8x8, alle Zeichen)
 
 This Amiga bitmap font has been designed for non-interlaced HighRes
 and includes separate glyphs for every code point (ISO-8859-1 chars,
@@ -11,8 +12,8 @@ all C0/C1 control codes, and even for the null character).
 
 Since there are several technical and usability issues on different
 AmigaOS versions if one tries to combine fonts with the same size
-and different font flags, the font has been seperated into
-a proportional (Luett) and a extended/monospaced (Luette) font.
+and different font flags, the font has been seperated into a
+proportional font (Luett) and a monospaced/extended font (Luette).
 
 The source code and linkable libraries with the font data are
 available at: <https://github.com/nicodex/amiga-font-luett>.
