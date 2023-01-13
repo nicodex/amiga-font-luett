@@ -1,0 +1,10 @@
+# SPDX-FileCopyrightText: 2023 Nico Bendlin <nico@nicode.net>
+# SPDX-License-Identifier: CC0-1.0
+/Fonts/Luett/8 binary
+/Fonts/Luett.font binary
+/Fonts/Luette/8 binary
+/Fonts/Luette.font binary
+/Fonts/Luett.readme text working-tree-encoding=ISO-8859-1 eol=lf
+/lib/luett.lib binary
+/lib/luette.lib binary
+/src/luett8.fcom text working-tree-encoding=ISO-8859-1 eol=lf
