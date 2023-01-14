@@ -7,8 +7,10 @@ AmigaOS versions if one tries to combine fonts with the same size
 and different font flags, the font has been seperated into a
 proportional font (Luett) and a monospaced/extended font (Luette).
 
+Distribution: [https://aminet.net/package/text/bfont/luett-font](https://aminet.net/package/text/bfont/luett-font)
+
 Have a look at the [src/luett8.fcom](src/luett8.fcom)
-to see the glyphs in ASCII arr.
+to see the glyphs in ASCII art.
 
 TODO: cleanup and publish the Makefile,
 add screens grabs for the impatient,
