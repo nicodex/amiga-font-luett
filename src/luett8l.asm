@@ -4,7 +4,7 @@
 ;
 ;	Character glyph location table for the Luett/8 font.
 ;
-;	Included in LIBS:luett.lib (see luett.asm), seperate build:
+;	Included in LIBS:luett.lib (see luett.asm), separate build:
 ;	> vasmm68k_mot -Fhunk -kick1hunks -o LIBS:luett8l.o luett8l.asm
 ;
 	IFND	LUETT_MERGE

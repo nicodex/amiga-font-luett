@@ -4,7 +4,7 @@
 ;
 ;	TextFont structure for the extended Luett/8 font.
 ;
-;	Included in LIBS:luette.lib (see luette.asm), seperate build:
+;	Included in LIBS:luette.lib (see luette.asm), separate build:
 ;	> vasmm68k_mot -Fhunk -kick1hunks -o LIBS:luette8f.o luette8f.asm
 ;
 	IFND	LUETT_MERGE
