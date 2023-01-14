@@ -1,7 +1,7 @@
 Short:        Small HiRes font (8x8, all code points)
 Author:       nico@nicode.net (Nico Bendlin)
 Type:         text/bfont
-Architecture: m68k-amigaos
+Architecture: generic
 Version:      1.0
 Distribution: Aminet
 Kurz:         Kleine HiRes-Schrift (8x8, alle Zeichen)
