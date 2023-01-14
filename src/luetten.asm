@@ -4,7 +4,7 @@
 ;
 ;	Name of the extended Luett font.
 ;
-;	Included in LIBS:luette.lib (see luette.asm), seperate build:
+;	Included in LIBS:luette.lib (see luette.asm), separate build:
 ;	> vasmm68k_mot -Fhunk -kick1hunks -o LIBS:luetten.o luetten.asm
 ;
 	IFND	LUETT_MERGE

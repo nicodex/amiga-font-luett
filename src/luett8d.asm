@@ -4,7 +4,7 @@
 ;
 ;	Character glyph bitmap data for the Luett/8 font.
 ;
-;	Included in LIBS:luett.lib (see luett.asm), seperate build:
+;	Included in LIBS:luett.lib (see luett.asm), separate build:
 ;	> vasmm68k_mot -Fhunk -kick1hunks -o LIBS:luett8d.o luett8d.asm
 ;
 	IFND	LUETT_MERGE

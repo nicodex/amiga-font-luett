@@ -4,7 +4,7 @@ all C0/C1 control codes, and even for the null character).
 
 Since there are several technical and usability issues on different
 AmigaOS versions if one tries to combine fonts with the same size
-and different font flags, the font has been seperated into a
+and different font flags, the font has been separated into a
 proportional font (Luett) and a monospaced/extended font (Luette).
 
 Distribution: [https://aminet.net/package/text/bfont/luett-font](https://aminet.net/package/text/bfont/luett-font)
