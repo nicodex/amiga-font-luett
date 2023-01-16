@@ -12,8 +12,7 @@ Distribution: [https://aminet.net/package/text/bfont/luett-font](https://aminet.
 Have a look at the [src/luett8.fcom](src/luett8.fcom)
 to see the glyphs in ASCII art.
 
-TODO: cleanup and publish the Makefile,
-add screens grabs for the impatient,
+TODO: screens grabs for the impatient,
 more details on the design decisions,
 ...
 
