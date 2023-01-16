@@ -1,7 +1,6 @@
 # SPDX-FileCopyrightText: 2023 Nico Bendlin <nico@nicode.net>
 # SPDX-License-Identifier: CC0-1.0
 /.idea/
-/Makefile
 /build
 /lib/luettn.o
 /lib/luett8f.o
