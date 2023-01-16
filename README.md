@@ -12,9 +12,10 @@ Distribution: [https://aminet.net/package/text/bfont/luett-font](https://aminet.
 Have a look at the [src/luett8.fcom](src/luett8.fcom)
 to see the glyphs in ASCII art.
 
-TODO: screens grabs for the impatient,
-more details on the design decisions,
-...
+![Luett.font/8 German filler text](Luett8.png "Luett.font/8")  
+![Luette.font/8 German filler text](Luette8.png "Luette.font/8")
+
+TODO: more details on the design decisions
 
 Trivia: 'Lütt' is Mecklenburg Low German and means small/tiny/thin
 
