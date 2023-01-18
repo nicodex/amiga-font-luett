@@ -29,8 +29,8 @@ So you can just extract the LHA into `FONTS:`.
 
 ## Screenshots
 
-![Luett.font/8 German filler text](Luett8.png "Luett.font/8")  
-![Luette.font/8 German filler text](Luette8.png "Luette.font/8")
+![Luett.font/8 sample](Luett8.png "Luett.font/8")  
+![Luette.font/8 sample](Luette8.png "Luette.font/8")
 
 ## Design notes
 
@@ -55,20 +55,18 @@ Upper One Eighth Block (`U+2594`) for all control codes,
 and the character from the well-known Caret Notation
 (`^L` for `Ctrl+L` results in `U+000C <Form Feed> (FF)`).
 
-![Codepoint 1B image](images/luett-1b.png "Codepoint 1B (ESC)")
-Codepoint `1B`, Unicode `U+001B` <Escape> (ESC),
-`^[` caret notation, and `*E` AmigaOS shell escaping.
-
-![Codepoint 9B image](images/luett-9b.png "Codepoint 9B (CSI)")
-Codepoint `9B`, Unicode `U+009B` <Control Sequence Introducer> (CSI),
-short form of `<ESC>[` ANSI escape sequence.
+|                    image                    | comment                                                                                                             |
+| :-----------------------------------------: | :------------------------------------------------------------------------------------------------------------------ |
+| ![1B image](images/luett-1b.png "1B (ESC)") | Code point `1B`, Unicode `U+001B` <Escape> (ESC), `^[` caret notation, and `*E` AmigaOS shell escaping.             |
+| ![9B image](images/luett-9b.png "9B (CSI)") | Code point `9B`, Unicode `U+009B` <Control Sequence Introducer> (CSI), short form of `<ESC>[` ANSI escape sequence. |
 
 The idea is, that the control code glyphs overlap as much as possible
 to save space in the font. Given the font's 992x8 bitmap data (for
 display purposes wrapped at 128 font pixels and scaled by 4:8):  
-![Luett8 bitmap data image](images/luett8d.png "Luett8 bitmap data")  
-the font size is only increased by 768 bytes (64 control codes with
-one long word per character location, and two words for kerning/spacing).
+![Luett8 bitmap data](images/luett8d.png "Luett8 bitmap data")  
+the font size is only increased by 768 instead of 1024 bytes
+(64 control codes with one long word per character location, and 
+two words per kerning/spacing pair - but only 32 8x8 image data).
 
 ## License
 
