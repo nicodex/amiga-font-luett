@@ -57,8 +57,8 @@ and the character from the well-known Caret Notation
 
 |                    image                    | comment                                                                                                             |
 | :-----------------------------------------: | :------------------------------------------------------------------------------------------------------------------ |
-| ![1B image](images/luett-1b.png "1B (ESC)") | Code point `1B`, Unicode `U+001B` <Escape> (ESC), `^[` caret notation, and `*E` AmigaOS shell escaping.             |
-| ![9B image](images/luett-9b.png "9B (CSI)") | Code point `9B`, Unicode `U+009B` <Control Sequence Introducer> (CSI), short form of `<ESC>[` ANSI escape sequence. |
+| ![1B image](images/luett-1b.png "1B (ESC)") | Code point `1B`, Unicode `U+001B <Escape> (ESC)`, `^[` caret notation, and `*E` AmigaOS shell escaping.             |
+| ![9B image](images/luett-9b.png "9B (CSI)") | Code point `9B`, Unicode `U+009B <Control Sequence Introducer> (CSI)`, short form of ANSI escape sequence. `<ESC>[` |
 
 The idea is, that the control code glyphs overlap as much as possible
 to save space in the font. Given the font's 992x8 bitmap data (for
