@@ -22,7 +22,7 @@ Trivia: "Lütt" is Mecklenburg Low German and means small/tiny/thin.
 
 ## Install
 
-The font distributed as `luett-font` on the [Aminet].
+The font is distributed as `luett-font` on the [Aminet].
 So you can just extract the LHA into `FONTS:`.
 
 [Aminet]: https://aminet.net/package/text/bfont/luett-font
@@ -32,9 +32,43 @@ So you can just extract the LHA into `FONTS:`.
 ![Luett.font/8 German filler text](Luett8.png "Luett.font/8")  
 ![Luette.font/8 German filler text](Luette8.png "Luette.font/8")
 
-## TODO
+## Design notes
 
-TBD: More details on the design decisions.
+The non-interlaced HiRes resolution has a pixel aspect ratio of 1:2,
+therefore a font pixel is expected to be twice as tall as width.
+
+To avoid copyright issues, the glyphs have been designed from scratch.
+However, since there is not much space in a 8x8 pixel font, the glyphs
+will be very similar or even identical to existing small bitmap fonts.
+
+One of my main usages is displaying memory dumps with hexadecimal numbers
+and characters. Most listings use a dot for missing character glyphs
+(control code symbols are very unusual in fonts anyway). There are not even
+symbols for the C1 control codes in the Unicode standard. The exemplary
+graphic pictures for the C0 control codes (Unicode range `2400-241F`) do
+not really help for small bitmap fonts, since there is too few space.
+
+So I'm using something like a
+Left One Eighth Block (`U+258F`) for C0,
+Right One Eighth Block (`U+2595`) for C1,
+Upper One Eighth Block (`U+2594`) for all control codes,
+and the character from the well-known Caret Notation
+(`^L` for `Ctrl+L` results in `U+000C <Form Feed> (FF)`).
+
+![Codepoint 1B image](images/luett-1b.png "Codepoint 1B (ESC)")
+Codepoint `1B`, Unicode `U+001B` <Escape> (ESC),
+`^[` caret notation, and `*E` AmigaOS shell escaping.
+
+![Codepoint 9B image](images/luett-9b.png "Codepoint 9B (CSI)")
+Codepoint `9B`, Unicode `U+009B` <Control Sequence Introducer> (CSI),
+short form of `<ESC>[` ANSI escape sequence.
+
+The idea is, that the control code glyphs overlap as much as possible
+to save space in the font. Given the font's 992x8 bitmap data (for
+display purposes wrapped at 128 font pixels and scaled by 4:8):  
+![Luett8 bitmap data image](images/luett8d.png "Luett8 bitmap data")  
+the font size is only increased by 768 bytes (64 control codes with
+one long word per character location, and two words for kerning/spacing).
 
 ## License
 
