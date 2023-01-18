@@ -75,11 +75,18 @@ one long word per character location, and two words for kerning/spacing).
 This work is licensed under multiple licenses.
 
 - All font source code and binary files are licensed under
-  SIL Open Font License 1.1 with Reserved Font Name "Luett"
+  [SIL Open Font License 1.1] with Reserved Font Name "Luett"
 - Other project configuration, build, and metadata files
-  are licensed under CC0 1.0 Universal.
+  are licensed under [CC0 1.0 Universal].
 
 For more accurate information, check the individual files.
+
+[SIL Open Font License 1.1]: LICENSES/OFL-1.1-RFN.txt
+[CC0 1.0 Universal]: LICENSES/CC0-1.0.txt
+
+TLDRLegal:
+[OFL-1.1](https://www.tldrlegal.com/l/ofl),
+[CC0-1.0](https://www.tldrlegal.com/l/cc0-1.0)
 
 This project attempts to conform to the [REUSE] recommendations,
 so you should find license information in/for all project files.
