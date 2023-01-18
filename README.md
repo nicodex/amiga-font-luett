@@ -82,9 +82,12 @@ For more accurate information, check the individual files.
 [SIL Open Font License 1.1]: LICENSES/OFL-1.1-RFN.txt
 [CC0 1.0 Universal]: LICENSES/CC0-1.0.txt
 
-TLDRLegal:
-[OFL-1.1](https://www.tldrlegal.com/l/ofl),
-[CC0-1.0](https://www.tldrlegal.com/l/cc0-1.0)
+- TLDRLegal:
+  [OFL-1.1](https://www.tldrlegal.com/l/ofl),
+  [CC0-1.0](https://www.tldrlegal.com/l/cc0-1.0)
+- gnu.org/licenses:
+  [OFL-1.1](https://www.gnu.org/licenses/license-list.html#SILOFL),
+  [CC0-1.0](https://www.gnu.org/licenses/license-list.html#CC0)
 
 This project attempts to conform to the [REUSE] recommendations,
 so you should find license information in/for all project files.
