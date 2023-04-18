@@ -29,7 +29,8 @@ So you can just extract the LHA into `FONTS:`.
 
 ## Screenshots
 
-![Luett.font/8 sample](Luett8.png "Luett.font/8")  
+![Luett.font/8 sample](Luett8.png "Luett.font/8") [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnicodex%2Famiga-font-luett.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnicodex%2Famiga-font-luett?ref=badge_shield)
+ 
 ![Luette.font/8 sample](Luette8.png "Luette.font/8")
 
 ## Design notes
@@ -93,3 +94,6 @@ This project attempts to conform to the [REUSE] recommendations,
 so you should find license information in/for all project files.
 
 [REUSE]: https://reuse.software/
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnicodex%2Famiga-font-luett.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnicodex%2Famiga-font-luett?ref=badge_large)
