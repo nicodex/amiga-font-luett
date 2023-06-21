@@ -7,8 +7,8 @@ Files: Fonts/Luett.font
        Fonts/Luett/8
        Fonts/Luette.font
        Fonts/Luette/8
-       inlcude/*.h
-       inlcude/*.i
+       include/*.h
+       include/*.i
        lib/*.lib
        src/*.asm
        src/*.fcom
