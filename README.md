@@ -4,8 +4,12 @@ This Amiga bitmap font has been designed for non-interlaced HighRes
 and includes separate glyphs for every code point (ISO-8859-1 chars,
 all C0/C1 control codes, and even for the null character).
 
-Have a look at the [src/luett8.fcom](src/luett8.fcom)
-to see the glyphs in ASCII art.
+## Install
+
+The font is distributed as `luett-font` on the [Aminet].
+So you can just extract the LHA into `FONTS:`.
+
+[Aminet]: https://aminet.net/package/text/bfont/luett-font
 
 ## Background
 
@@ -20,17 +24,16 @@ This drawing mode is provided as a separate monospaced font "Luette"
 
 Trivia: "Lütt" is Mecklenburg Low German and means small/tiny/thin.
 
-## Install
-
-The font is distributed as `luett-font` on the [Aminet].
-So you can just extract the LHA into `FONTS:`.
-
-[Aminet]: https://aminet.net/package/text/bfont/luett-font
-
 ## Screenshots
 
 ![Luett.font/8 sample](Luett8.png "Luett.font/8")  
 ![Luette.font/8 sample](Luette8.png "Luette.font/8")
+
+## Charset table
+
+![Luett.font/8 table](Luett.png "Luett.font/8 table")  
+Have a look at the [src/luett8.fcom](src/luett8.fcom)
+to see the glyphs in ASCII art.
 
 ## Design notes
 
