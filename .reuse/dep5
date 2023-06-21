@@ -1,0 +1,29 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: amiga-font-luett
+Upstream-Contact: Nico Bendlin <nico@nicode.net>
+Source: https://github.com/nicodex/amiga-font-luett
+
+Files: Fonts/Luett.font
+       Fonts/Luett/8
+       Fonts/Luette.font
+       Fonts/Luette/8
+       inlcude/*.h
+       inlcude/*.i
+       lib/*.lib
+       src/*.asm
+       src/*.fcom
+Copyright: 2023 Nico Bendlin <nico@nicode.net>
+License: OFL-1.1-RFN
+Comment: Reserved Font Name "Luett"
+
+Files: .gitattributes
+       .gitignore
+       Fonts/Luett.readme
+       Luett8.png
+       Luette8.png
+       Makefile
+       README.md
+       images/*.png
+Copyright: 2023 Nico Bendlin <nico@nicode.net>
+License: CC0-1.0
+

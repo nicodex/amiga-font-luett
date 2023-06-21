@@ -83,8 +83,8 @@ For more accurate information, check the individual files.
 [CC0 1.0 Universal]: LICENSES/CC0-1.0.txt
 
 - TLDRLegal:
-  [OFL-1.1](https://www.tldrlegal.com/l/ofl),
-  [CC0-1.0](https://www.tldrlegal.com/l/cc0-1.0)
+  [OFL-1.1](https://www.tldrlegal.com/license/open-font-license-ofl-explained),
+  [CC0-1.0](https://www.tldrlegal.com/license/creative-commons-cc0-1-0-universal)
 - gnu.org/licenses:
   [OFL-1.1](https://www.gnu.org/licenses/license-list.html#SILOFL),
   [CC0-1.0](https://www.gnu.org/licenses/license-list.html#CC0)

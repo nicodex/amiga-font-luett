@@ -1,6 +1,3 @@
-# SPDX-FileCopyrightText: 2023 Nico Bendlin <nico@nicode.net>
-# SPDX-License-Identifier: CC0-1.0
-
 AMIGA_TOOLCHAIN ?= /opt/amiga
 NDK_INCLUDE_I ?= $(AMIGA_TOOLCHAIN)/m68k-amigaos/ndk-include
 VASM ?= $(AMIGA_TOOLCHAIN)/bin/vasmm68k_mot
