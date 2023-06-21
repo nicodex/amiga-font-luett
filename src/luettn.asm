@@ -29,6 +29,6 @@
 _LuettName:
 		dc.b	'Luett.font',0
 	IFD	LUETT_DISKFONT
-		dc.b	'$VER: Luett 1.0 (1.1.2023)',0
+		dc.b	'$VER: Luett 1.1 (21.6.2023)',0
 		dcb.b	MAXFONTNAME+LN_TYPE-(*-_LuettName),0
 	ENDC

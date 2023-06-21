@@ -18,7 +18,9 @@ Comment: Reserved Font Name "Luett"
 
 Files: .gitattributes
        .gitignore
+       CHANGELOG
        Fonts/Luett.readme
+       Luett.png
        Luett8.png
        Luette8.png
        Makefile

@@ -1,0 +1,13 @@
+amiga-font-luett (1.1) aminet; urgency=low
+
+  * Remove additional spacing after Right Square Bracket (U+005D).
+    Closes #3
+
+ -- Nico Bendlin <nico@nicode.net>  Wed, 21 Jun 2023 01:01:00 +0200
+
+amiga-font-luett (1.0) aminet; urgency=low
+
+  * Initial Release.
+
+ -- Nico Bendlin <nico@nicode.net>  Sun, 01 Jan 2023 01:00:00 +0100
+
