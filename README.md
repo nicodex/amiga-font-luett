@@ -93,6 +93,7 @@ For more accurate information, check the individual files.
   [CC0-1.0](https://www.gnu.org/licenses/license-list.html#CC0)
 
 This project attempts to conform to the [REUSE] recommendations,
-so you should find license information in/for all project files.
+so you should find license information in/for all project files,
+especially in the copyright file [.reuse/dep5](.reuse/dep5).
 
 [REUSE]: https://reuse.software/
