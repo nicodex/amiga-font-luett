@@ -65,7 +65,7 @@ and the character from the well-known Caret Notation
 
 The idea is, that the control code glyphs overlap as much as possible
 to save space in the font. Given the font's 992x8 bitmap data (for
-display purposes wrapped at 128 font pixels and scaled by 4:8):  
+display purposes wrapped at 128 font pixels and scaled by 2:4):  
 ![Luett8 bitmap data](images/luett8d.png "Luett8 bitmap data")  
 the font size is only increased by 768 instead of 1024 bytes
 (64 control codes with one long word per character location, and 
