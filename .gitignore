@@ -5,5 +5,6 @@
 /lib/luett8p.o
 /lib/luett8d.o
 /lib/luette8f.o
-/lib/luette8p.o/lib/luetten.o
+/lib/luette8p.o
+/lib/luetten.o
 /lib/luettn.o
