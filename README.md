@@ -71,6 +71,12 @@ the font size is only increased by 768 instead of 1024 bytes
 (64 control codes with one long word per character location, and 
 two words per kerning/spacing pair - but only 32 8x8 image data).
 
+## TrueType
+
+A TrueType font with 191 Latin-1 characters can be found on [FontStruct].
+
+[FontStruct]: https://fontstruct.com/fontstructions/show/2596067/amiga-font-luett
+
 ## License
 
 This work is licensed under multiple licenses.
